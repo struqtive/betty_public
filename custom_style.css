@@ -103,7 +103,7 @@ iframe {
 }
 /*incident info top bar*/
 .MuiPaper-root.MuiPaper-elevation23 {
-    background-color:#666666 !important; /*#283E5F*/
+    background-color:#283E5F !important;
     border-bottom:1px solid #364f77;
     border-top:1px solid #364f77;
 }
