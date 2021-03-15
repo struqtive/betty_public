@@ -54,9 +54,7 @@ iframe {
 
 .MuiPaper-root.MuiPaper-elevation17 {
     background-color:transparent !important;
-    
     box-shadow: none !important;
-    width:100%;
 }
 
 .MuiPaper-elevation24 [class^="grid-1-2-"] {
@@ -70,6 +68,7 @@ iframe {
 .MuiPaper-elevation17 [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(425px, 425px)) !important;
     gap:2rem !important;
+    width:100%;
 }
 
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
