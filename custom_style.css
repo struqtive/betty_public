@@ -54,6 +54,7 @@ iframe {
 
 .MuiPaper-root.MuiPaper-elevation17 {
     background-color:transparent !important;
+    
     box-shadow: none !important;
     width:100%;
 }
