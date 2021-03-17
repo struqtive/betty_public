@@ -306,3 +306,12 @@ div[class^="outerSpacing-1-2"]
         text-align: left;
         white-space: nowrap;
     }
+
+    
+
+    /*button in menu from Menno*/
+
+    .MuiMenu-list .MuiBox-root .MuiButton-fullWidth {
+        width:100% !important;
+        justify-content: initial;
+    }
