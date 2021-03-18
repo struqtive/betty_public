@@ -87,6 +87,11 @@ iframe {
     border-top-right-radius: 8px !important;
 }
 
+.MuiPaper-elevation17  [class^="root-1-2-"] [class^="grid-1-2-"] 
+{
+    justify-content: center;
+}
+
 .MuiPaper-elevation21 [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(100px, 100px)) !important;
 }
