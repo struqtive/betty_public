@@ -154,11 +154,9 @@ iframe {
 
 /*iframe sizing*/
 
-div[class^="outerSpacing-1-2"]
-{
+div[class^="outerSpacing-1-2"] {
     width:100% !important;
 }
-
 
 /* incident grid - tabs */
     .MuiBox-root div[class^="tabs-1-2-"]{
@@ -171,13 +169,12 @@ div[class^="outerSpacing-1-2"]
     }
 
 
-    .MuiBox-root div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected
-    {
+    .MuiBox-root div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
         color: #1564D7 !important;
         font-weight: 600;    
     }
 
-    .MuiBox-root div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected  {
+    .MuiBox-root div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
         border-bottom:2px solid #1564D7;
     }
     
@@ -223,10 +220,6 @@ div[class^="outerSpacing-1-2"]
        justify-content: left;
     }
 
-
-
-
-
     .MuiPaper-root.MuiPaper-elevation24 [class^="column-1-2-"] {
         padding-top:3px;
     }
@@ -239,7 +232,6 @@ div[class^="outerSpacing-1-2"]
         display:none !important;
     }
     /* etc incident grid -tabs */
-
 
     
     .MuiPaper-root {
@@ -285,8 +277,7 @@ div[class^="outerSpacing-1-2"]
     }
 
     .MuiPaper-elevation22 img[class ^= "media"]:hover,
-    .MuiPaper-elevation21 img[class ^= "media"]:hover
-    {
+    .MuiPaper-elevation21 img[class ^= "media"]:hover {
         opacity: 0.7;
     }
 
@@ -298,24 +289,18 @@ div[class^="outerSpacing-1-2"]
         filter: contrast(125%);
     }
 
-    .MuiPaper-elevation19 img[class ^= "media"]
-    {
-  
+    .MuiPaper-elevation19 img[class ^= "media"] {
         object-fit: cover;
         object-position: center;
         filter: contrast(125%);
     }
 
     .MuiBox-root > div > p[class^="unauthorized-1-2-"] {
-        
         text-align: left;
         white-space: nowrap;
     }
 
-    
-
     /*button in menu from Menno*/
-
     .MuiMenu-list .MuiBox-root .MuiButton-fullWidth {
         width:100% !important;
         justify-content: initial;
