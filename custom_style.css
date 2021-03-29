@@ -9,6 +9,7 @@
 19 - sketches
 18 - edit incident
 17 - Incident search page - wrap datalist to set grid-template-columns
+16 - edit roles in user management
 
 */
 
@@ -68,6 +69,12 @@ iframe {
 
 .MuiPaper-elevation17 [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(425px, 425px)) !important;
+    gap:2rem !important;
+    width:100%;
+}
+
+.MuiPaper-elevation16 [class^="grid-1-2-"] {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px)) !important;
     gap:2rem !important;
     width:100%;
 }
