@@ -80,8 +80,15 @@ iframe {
 }
 
 .MuiPaper-root.MuiPaper-elevation16 [class^="grid-1-2-"] > div {
-    border:0px;
+    border:0px !important;
+
 }
+
+.MuiPaper-root.MuiPaper-elevation16 [class^="grid-1-2-"] > div > div {
+    width:100% !important;
+    
+}
+
 
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
 .MuiPaper-elevation21 [class^="grid-1-2-"] > div , 
