@@ -73,7 +73,7 @@ iframe {
     width:100%;
 }
 
-.MuiPaper-elevation16 [class^="grid-1-2-"] {
+.MuiPaper-root.MuiPaper-elevation16 [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(250px, 250px)) !important;
     gap:2rem !important;
     width:100%;
