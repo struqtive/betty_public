@@ -74,9 +74,13 @@ iframe {
 }
 
 .MuiPaper-root.MuiPaper-elevation16 [class^="grid-1-2-"] {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 250px)) !important;
-    gap:2rem !important;
+    grid-template-columns: repeat(auto-fit, minmax(32%,32%)) !important;
+    gap:0.3rem !important;
     width:100%;
+}
+
+.MuiPaper-root.MuiPaper-elevation16 [class^="grid-1-2-"] > div {
+    border:0px;
 }
 
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
