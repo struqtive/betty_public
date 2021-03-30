@@ -2,7 +2,7 @@
 
 /*elevations used 
 24 - Involved page + Witnesses
-23 
+23 - Incident page - subtabmenu
 22 - Media page (view all)
 21 - Media page (photos) - Documents (wr. Statements, insurance, persolal id, tex) 
 20
@@ -131,6 +131,10 @@ iframe {
     background-color:#283E5F !important;
     border-bottom:1px solid #364f77;
     border-top:1px solid #364f77;
+}
+
+.MuiPaper-root.MuiPaper-elevation23 .Mui-disabled {
+    display:none;
 }
 
 /*main menu*/
