@@ -133,7 +133,7 @@ iframe {
     border-top:1px solid #364f77;
 }
 
-.MuiPaper-root.MuiPaper-elevation23 [class^="tabs-1-2-"] button:disabled {
+.MuiPaper-root.MuiPaper-elevation23 .MuiTab-textColorInherit.Mui-disabled {
     display:none !important;
 }
 
