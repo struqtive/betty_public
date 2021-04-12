@@ -327,3 +327,7 @@ div[class^="outerSpacing-1-2"] {
         width:100% !important;
         justify-content: initial;
     }
+
+    .MuiFormControlLabel-root {
+    margin-left:0px !important;
+    }
