@@ -329,5 +329,5 @@ div[class^="outerSpacing-1-2"] {
     }
 
     .MuiFormControlLabel-root {
-    margin-left:0px !important;
+    /*margin-left:0px !important;*/
     }
