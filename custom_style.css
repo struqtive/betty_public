@@ -342,5 +342,8 @@ div[class^="outerSpacing-1-2"] {
         border-radius: 10px;
         padding: 0px 10px;
         float: left;
-        margin: 0px 10px;
+        margin-right: 0px 10px;
+        margin: 5px 2px;
+        font-size: 12px;
+    
     }
