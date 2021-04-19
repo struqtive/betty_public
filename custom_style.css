@@ -330,6 +330,8 @@ div[class^="outerSpacing-1-2"] {
 
     ul.rolelist {
         list-style: none; 
+        padding:0px;
+        margin:0px;
     }
 
 
