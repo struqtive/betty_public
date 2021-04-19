@@ -331,10 +331,8 @@ div[class^="outerSpacing-1-2"] {
     .MuiFormControlLabel-root {
     /*margin-left:0px !important;*/
     }
-
-    .rolelist.ul {
-        list-style: none;
-    
+    ul.rolelist {
+        list-style: none; 
     }
 
 
