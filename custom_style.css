@@ -332,7 +332,7 @@ div[class^="outerSpacing-1-2"] {
     /*margin-left:0px !important;*/
     }
 
-    .rolelist.MuiMenu-list
+    .rolelist.ul {
         list-style: none;
     
     }
