@@ -366,6 +366,7 @@ div[class^="outerSpacing-1-2"] {
         opacity: 0;
         transition: opacity 0.3s;
         font-size:10px;
+        font-weight:bold;
       }
       
       .tooltip .tooltiptext::after {
@@ -376,7 +377,7 @@ div[class^="outerSpacing-1-2"] {
         margin-left: -5px;
         border-width: 5px;
         border-style: solid;
-        border-color: #555 transparent transparent transparent;
+        border-color: #F9f9f9 transparent transparent transparent;
       }
       
       .tooltip:hover .tooltiptext {
