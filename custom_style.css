@@ -328,61 +328,7 @@ div[class^="outerSpacing-1-2"] {
         justify-content: initial;
     }
 
-    ul.rolelist {
-        list-style: none; 
-        padding:0px;
-        margin:0px;
-    }
-
-
-    .rolelist li {
-        background-color: #f1f4f6;
-        border: 1px solid #f1f4f6;
-        border-radius: 10px;
-        padding: 0px 10px;
-        float: left;
-        margin-right: 0px 10px;
-        margin: 5px 2px;
-        font-size: 12px;
+    .MuiFormControlLabel-root {
+        /*margin-left:0px !important;*/
+        }
     
-    }
-
-    .tooltip {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: #f9f9f9;
-        color: #000;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        margin-left: -60px;
-        opacity: 0;
-        transition: opacity 0.3s;
-        font-size:10px;
-        font-weight:bold;
-      }
-      
-      .tooltip .tooltiptext::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: #F9f9f9 transparent transparent transparent;
-      }
-      
-      .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-      }
