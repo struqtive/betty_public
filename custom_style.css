@@ -352,13 +352,13 @@ div[class^="outerSpacing-1-2"] {
             font-size: 12px;
         
         }
-    /*
-        .tooltip {
+    
+        .struq-tooltip {
             position: relative;
             display: inline-block;
           }
           
-          .tooltip .tooltiptext {
+          .struq-tooltip .tooltiptext {
             visibility: hidden;
             width: 120px;
             background-color: #f9f9f9;
@@ -377,7 +377,7 @@ div[class^="outerSpacing-1-2"] {
             font-weight:bold;
           }
           
-          .tooltip .tooltiptext::after {
+          .struq-tooltip .tooltiptext::after {
             content: "";
             position: absolute;
             top: 100%;
@@ -388,8 +388,8 @@ div[class^="outerSpacing-1-2"] {
             border-color: #F9f9f9 transparent transparent transparent;
           }
           
-          .tooltip:hover .tooltiptext {
+          .struq-tooltip:hover .tooltiptext {
             visibility: visible;
             opacity: 1;
           }
-    */
+    
