@@ -331,3 +331,18 @@ div[class^="outerSpacing-1-2"] {
     .MuiFormControlLabel-root {
     /*margin-left:0px !important;*/
     }
+
+    .roleslist.MuiMenu-list
+        list-style: none;
+    
+    }
+
+
+    .rolelist li {
+        background-color: #f1f4f6;
+        border: 1px solid #f1f4f6;
+        border-radius: 10px;
+        padding: 0px 10px;
+        float: left;
+        margin: 0px 10px;
+    }
