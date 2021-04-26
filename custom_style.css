@@ -64,6 +64,8 @@ iframe {
     background-color:transparent !important;
     box-shadow: none !important;
     border:1px solid #f1f4f6;
+    border-radius:8px;
+
 }
 
 .MuiPaper-elevation24 [class^="grid-1-2-"] {
