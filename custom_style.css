@@ -200,7 +200,8 @@ div[class^="outerSpacing-1-2"] {
         border-bottom:2px solid #1564D7;
     }
     
-    .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root {
+    .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root ,
+    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root  {
         color: #4d4d4d !important;  
         min-width: initial !important;
         font-size:1rem !important;
