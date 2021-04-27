@@ -61,7 +61,7 @@ iframe {
 }
 
 .MuiPaper-root.MuiPaper-elevation15 {
-    background-color:transparent !important;
+    background-color:white !important;
     box-shadow: none !important;
     border:1px solid #f1f4f6;
     border-radius:8px;
@@ -223,6 +223,8 @@ div[class^="outerSpacing-1-2"] {
         padding-bottom: 0px !important;
         letter-spacing:initial;
         line-height:initial;
+        background-color: #f9f9f98c;
+    
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
