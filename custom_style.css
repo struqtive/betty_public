@@ -243,6 +243,10 @@ div[class^="outerSpacing-1-2"] {
        
     }
 
+    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTabs-vertical {
+        border-right: 1px solid #e9eef2 !important;    
+    }
+
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
         border-radius: 5px;
         margin-left: 10px;
