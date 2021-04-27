@@ -239,7 +239,7 @@ div[class^="outerSpacing-1-2"] {
 
     .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root:hover ,
     .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root:hover  { 
-        background-color:#a4a1a1 !important;
+        background-color:#e8f1fd !important;
 
     }
 
@@ -275,6 +275,8 @@ div[class^="outerSpacing-1-2"] {
         background-color: #f9f9f9;
         border-right: 1px solid #e0e4e6;
         border: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit .MuiTab-wrapper{
