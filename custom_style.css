@@ -223,8 +223,12 @@ div[class^="outerSpacing-1-2"] {
         padding-bottom: 0px !important;
         letter-spacing:initial;
         line-height:initial;
-        background-color: #f9f9f98c;
+  
     
+    }
+
+    .MuiPaper-elevation18 div[class^="tabs-1-2-"] {
+        background-color: #f9f9f98c;
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
