@@ -67,6 +67,13 @@ iframe {
     border-radius:8px;
 
 }
+.MuiPaper-root.MuiPaper-elevation15 thead{
+    border:1px solid red !important;
+    background-color: #f9f9f9 !important;
+}
+
+
+
 
 .MuiPaper-elevation24 [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(35px, 35px)) !important;
