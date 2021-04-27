@@ -221,8 +221,7 @@ div[class^="outerSpacing-1-2"] {
     }
     
     .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root ,
-    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root  {
-        color: #4d4d4d !important;  
+    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root  { 
         min-width: initial !important;
         font-size:1rem !important;
         font-weight:400;
@@ -252,7 +251,8 @@ div[class^="outerSpacing-1-2"] {
         margin-left: 10px;
         margin-right: 10px;
         background-color: #d5e6ff;
-        border: 0px;        
+        border: 0px;    
+        color: #0065e3;   
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
