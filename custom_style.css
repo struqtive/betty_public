@@ -252,15 +252,19 @@ div[class^="outerSpacing-1-2"] {
         border-right: 1px solid #e9eef2 !important;    
     }
 
-    .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+    .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected,
+    .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected:hover{
         border-radius: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        background-color: #d5e6ff;
+        /*background-color: #d5e6ff;*/
+        background-color:#21324a;
         border: 0px;    
-        color: #0065e3; 
+        color: #f1f4f6; 
         font-weight:500;  
     }
+
+    
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
         margin-left: 10px;
