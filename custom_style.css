@@ -267,7 +267,10 @@ div[class^="outerSpacing-1-2"] {
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected .MuiTouchRipple-root {
-        border-right:3px solid #0065e3 !important;
+        border-right:5px solid #0065e3 !important;
+       
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     }
 
     
