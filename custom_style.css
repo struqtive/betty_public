@@ -283,6 +283,8 @@ div[class^="outerSpacing-1-2"] {
         border: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
+        color: #0065e3;
+        margin-top: 5px;
     }
 
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit .MuiTab-wrapper{
