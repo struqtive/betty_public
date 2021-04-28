@@ -220,8 +220,7 @@ div[class^="outerSpacing-1-2"] {
         border-bottom:2px solid #1564D7;
     }
     
-    .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root ,
-    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root  { 
+    .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root  { 
         min-width: initial !important;
         font-size:1rem !important;
         font-weight:400;
@@ -235,6 +234,21 @@ div[class^="outerSpacing-1-2"] {
         line-height:initial;
   
     
+    }
+
+    .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiTab-root  {
+        min-width: initial !important;
+        font-size:1rem !important;
+        font-weight:400;
+        border-radius: 5px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding-top: 0px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px !important;
+        letter-spacing:initial;
+        line-height:initial;
     }
 
     .MuiBox-root div[class^="tabs-1-2-"] .MuiTab-root:hover ,
@@ -278,7 +292,6 @@ div[class^="outerSpacing-1-2"] {
     .MuiPaper-root.MuiPaper-elevation18 .MuiTabs-root button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
         margin-left: 10px;
         padding-left:30px;
-        min-width:200px !important;
         min-width: 125px !important;
         margin-top: 5px;
         border-top-right-radius: 0px !important;
