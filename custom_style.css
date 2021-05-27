@@ -11,6 +11,7 @@
 17 - Incident search page - wrap datalist to set grid-template-columns
 16 - edit roles in user management
 15 - outlined datatable
+14 - Report detail page
 
 */
 
@@ -195,6 +196,10 @@ iframe {
 
 
 /*iframe sizing*/
+.MuiPaper-root.MuiPaper-elevation14  [class^="column-1-2-"], 
+.MuiPaper-root.MuiPaper-elevation14  [class^="outerSpacing-1-2"]{
+    width:100% !important;
+}
 
 div[class^="outerSpacing-1-2"] {
     width:100% !important;
@@ -217,7 +222,8 @@ div[class^="outerSpacing-1-2"] {
     }
 
     .MuiBox-root .MuiPaper-elevation18 div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
-     color:white !important; 
+    
+        color:white !important; 
      font-weight:500;
     }
 
