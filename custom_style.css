@@ -197,7 +197,8 @@ iframe {
 
 /*iframe sizing*/
 .MuiPaper-root.MuiPaper-elevation14 div section [class^="column-1-2-"], 
-.MuiPaper-root.MuiPaper-elevation14 div section [class^="outerSpacing-1-2"]{
+.MuiPaper-root.MuiPaper-elevation14 div section [class^="outerSpacing-1-2"]
+{
     width:100% !important;
 }
 
@@ -480,3 +481,6 @@ div[class^="outerSpacing-1-2"] {
             opacity: 1;
           }
     
+          .MuiPaper-root.MuiExpansionPanel-root.Mui-expanded.MuiExpansionPanel-rounded.MuiPaper-elevation22.MuiPaper-rounded {
+            background-color: #f1ecec !important;
+          }
