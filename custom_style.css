@@ -197,7 +197,8 @@ iframe {
 
 /*iframe sizing*/
 .MuiPaper-root.MuiPaper-elevation14 div section [class^="column-1-2-"], 
-.MuiPaper-root.MuiPaper-elevation14 div section [class^="outerSpacing-1-2"]{
+.MuiPaper-root.MuiPaper-elevation14 div section [class^="outerSpacing-1-2"]
+{
     width:100% !important;
 }
 
