@@ -109,8 +109,7 @@ iframe {
     width:100% !important;
     
 }
-
-div:empty {
+div[class ^= "grid-1-2-"] div:empty {
     display:none;
 }
 
