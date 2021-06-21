@@ -110,6 +110,9 @@ iframe {
     
 }
 
+div:empty {
+    display:none;
+}
 
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
 .MuiPaper-elevation21 [class^="grid-1-2-"] > div , 
