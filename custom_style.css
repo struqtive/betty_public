@@ -68,7 +68,7 @@ iframe {
     border-radius:8px;
 
 }
-.MuiPaper-root.MuiPaper-elevation15 thead{
+.MuiPaper-root.MuiPaper-elevation15 thead .div[role="columnheader"] {
     background-color: #f9f9f9 !important;
 }
 
