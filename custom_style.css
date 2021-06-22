@@ -513,7 +513,7 @@ div[class^="outerSpacing-1-2"] {
         font-size: 0.8rem !important;
     }
 
-    div > .MuiPaper-elevation13
+    .MuiPaper-elevation13 div:nth-child(1)[class^= "column-1-2"]
     {
         display:none;
     }
