@@ -493,11 +493,12 @@ div[class^="outerSpacing-1-2"] {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(178, 196, 218); 
+    background: rgb(0, 101, 227);
   }
     /* Handle on hover */
     ::-webkit-scrollbar-track:hover {
-        background: rgb(0, 101, 227);
+      
+        background: rgb(178, 196, 218); 
       }
 
 
