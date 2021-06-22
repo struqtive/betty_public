@@ -68,11 +68,11 @@ iframe {
     border-radius:8px;
 
 }
-.MuiPaper-root.MuiPaper-elevation15 thead tr.headerRow-d12-1-2-4632 th {
+.MuiPaper-root.MuiPaper-elevation15 table thead .headerRow-d24-1-2-4640 th {
     background-color: #f9f9f9 !important;
 }
 
-.MuiPaper-root.MuiPaper-elevation15 table thead tr.headerRow-1-2-270 th.MuiTableCell-stickyHeader {
+.MuiPaper-root.MuiPaper-elevation15 table thead .headerRow-d24-1-2-4640 th {
 
     border-bottom: 0.0625rem solid rgb(239 234 234 / 69%) !important;
 }
@@ -493,8 +493,6 @@ div[class^="outerSpacing-1-2"] {
 ::-webkit-scrollbar {
     width: 10px;
   }
-  
-  
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
