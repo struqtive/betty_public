@@ -68,11 +68,11 @@ iframe {
     border-radius:8px;
 
 }
-.MuiPaper-elevation15 div table thead tr[class^="headerRow-1-2"] th {
+.MuiPaper-elevation15 div table thead tr[class*="headerRow-1-2"] th {
     background-color: #f9f9f9 !important;
 }
 
-.MuiPaper-elevation15 div table thead tr[class^="headerRow-1-2"] th {
+.MuiPaper-elevation15 div table thead tr[class*="headerRow-1-2"] th {
 
     border-bottom: 0.0625rem solid rgb(239 234 234 / 69%) !important;
 }
