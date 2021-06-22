@@ -72,7 +72,7 @@ iframe {
     background-color: #f9f9f9 !important;
 }
 
-.MuiPaper-root.MuiPaper-elevation15 .headerRow-1-2-270 th.MuiTableCell-stickyHeader {
+.MuiPaper-root.MuiPaper-elevation15 table thead tr.headerRow-1-2-270 th.MuiTableCell-stickyHeader {
 
     border-bottom: 0.0625rem solid rgb(239 234 234 / 69%) !important;
 }
