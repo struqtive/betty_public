@@ -68,11 +68,11 @@ iframe {
     border-radius:8px;
 
 }
-.MuiPaper-root.MuiPaper-elevation15 table thead .headerRow-d24-1-2-4640 th {
+.MuiPaper-elevation15 div table thead .headerRow-d24-1-2-4640 th {
     background-color: #f9f9f9 !important;
 }
 
-.MuiPaper-root.MuiPaper-elevation15 table thead .headerRow-d24-1-2-4640 th {
+.MuiPaper-elevation15 div table thead .headerRow-d24-1-2-4640 th {
 
     border-bottom: 0.0625rem solid rgb(239 234 234 / 69%) !important;
 }
@@ -491,13 +491,17 @@ div[class^="outerSpacing-1-2"] {
 /*scrollbars*/
           /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: rgb(0, 101, 227); 
   }
+    /* Handle on hover */
+    ::-webkit-scrollbar-track:hover {
+        background: rgb(173, 208, 250); 
+      }
 
 
   ::-webkit-scrollbar-track {
