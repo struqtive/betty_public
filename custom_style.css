@@ -527,7 +527,7 @@ div[class^="outerSpacing-1-2"] {
 
 }
 
-@media (max-width: 1700px)
+@media (min-width: 1500px) and (max-width: 1700px)
 {
     body { 
         zoom: 90%; 
