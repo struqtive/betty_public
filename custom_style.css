@@ -37,8 +37,8 @@ body::-webkit-scrollbar {
   }
 
   body { 
-    zoom: 3; 
-    -moz-transform: scale(3); 
+    zoom: 80%; 
+    -moz-transform: scale(0.8); 
     -moz-transform-origin: 0 0;
 }
 
