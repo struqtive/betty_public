@@ -36,6 +36,12 @@ body::-webkit-scrollbar {
     border-radius: 16px;
   }
 
+  body { 
+    zoom: 3; 
+    -moz-transform: scale(3); 
+    -moz-transform-origin: 0 0;
+}
+
 iframe {
 	border: none;
 }
