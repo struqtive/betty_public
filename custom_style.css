@@ -499,7 +499,7 @@ div[class^="outerSpacing-1-2"] {
 }
 
 /*main menu*/
-@media (max-width: 1500px)
+@media (max-width: 1520px)
 {
     .container-d20-1-2-1229 .MuiButtonBase-root {
     margin:0px !important;
@@ -527,7 +527,7 @@ div[class^="outerSpacing-1-2"] {
 
 }
 
-@media (min-width: 1500px) and (max-width: 1700px)
+@media (min-width: 1520px) and (max-width: 1700px)
 {
     body { 
         zoom: 90%; 
