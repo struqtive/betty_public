@@ -485,14 +485,14 @@ div[class^="outerSpacing-1-2"] {
 /* Media Queries */
 @media (max-width: 600px)
 {
-    .container-d5-1-2-49 .MuiButtonBase-root {
+    .container-d20-1-2-1229 .MuiButtonBase-root {
         margin-top:10px !important;
     }
 }
 
 @media (min-width: 1500px)
 {
-    .container-d5-1-2-49 .MuiButtonBase-root {
+    .container-d20-1-2-1229 .MuiButtonBase-root {
         margin-top: 7px !important;
     }
 }
@@ -500,12 +500,12 @@ div[class^="outerSpacing-1-2"] {
 /*main menu*/
 @media (max-width: 1500px)
 {
-    .container-d5-1-2-49 .MuiButtonBase-root {
+    .container-d20-1-2-1229 .MuiButtonBase-root {
     margin:0px !important;
     padding:0px !important;
     }
 
-    .container-d5-1-2-49 .MuiButton-label {
+    .ccontainer-d20-1-2-1229 .MuiButton-label {
         width: auto;
         margin: 1rem;
         margin-left: 10px !important;
