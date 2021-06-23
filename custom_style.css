@@ -524,5 +524,14 @@ div[class^="outerSpacing-1-2"] {
     -moz-transform: scale(0.8); 
     -moz-transform-origin: 0 0;
 }
+
 }
 
+@media (max-width: 1500px)
+{
+    body { 
+        zoom: 90%; 
+        -moz-transform: scale(0.9); 
+        -moz-transform-origin: 0 0;
+    }
+}
