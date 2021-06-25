@@ -377,6 +377,7 @@ div[class^="outerSpacing-1-2"] {
         object-fit: cover;
         object-position: center;
         filter: contrast(125%);
+        cursor:pointer;
     }
 
     .MuiBox-root > div > p[class^="unauthorized-1-2-"] {
