@@ -115,7 +115,7 @@ div[class ^= "grid-1-2-"] div:empty {
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
 .MuiPaper-elevation21 [class^="grid-1-2-"] > div , 
 .MuiPaper-elevation24 [class^="grid-1-2-"] > div,
-.MuiPaper-elevation24 [class^="outerSpacing-1-2"] > div
+.MuiPaper-elevation24 .MuiBox-root [class^="outerSpacing-1-2"]
 {
    overflow:hidden;
    border-radius: 7px;
