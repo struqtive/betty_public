@@ -485,6 +485,11 @@ div[class^="outerSpacing-1-2"] {
     border-radius: 16px;
   }
 
+ div[class ^= "StyledBox"]::-webkit-scrollbar
+ {
+    height:15px !important;
+ }
+
 
 /*MEDIA QUERIES*/
 /*--------------------------------------------------------------------------------------*/
