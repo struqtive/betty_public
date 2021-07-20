@@ -488,6 +488,7 @@ div[class^="outerSpacing-1-2"] {
  div[class ^= "StyledBox"]::-webkit-scrollbar
  {
     height:15px !important;
+    width: 5px !important;
  }
 
 
