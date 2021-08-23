@@ -544,3 +544,8 @@ div[class^="outerSpacing-1-2"] {
         -moz-transform-origin: 0 0;
     }
 }
+
+
+.highcharts-credits {
+    display:none !important;
+}
