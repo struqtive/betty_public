@@ -13,6 +13,7 @@
 15 - outlined datatable
 14 - Report detail page
 13 - hide boxes for smaller screens
+10 - on cards to remove the grid settings to initial/general tabs/
 
 */
 
@@ -55,6 +56,10 @@ iframe {
 /* document media thumbnails in box */
 .MuiPaper-root.MuiPaper-elevation20  [class^="grid-1-2-"] {
     grid-template-columns: none !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation10  [class^="grid-1-2-"] {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
 }
 
 .MuiPaper-root.MuiPaper-elevation17 {
