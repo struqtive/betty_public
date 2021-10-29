@@ -559,7 +559,7 @@ div[class^="outerSpacing-1-2"] {
 }
 
 
-.pd-list {
+.pd-list li {
     font-family: 'Questrial', sans-serif;
     font-size:20px;
     background-color:white;
