@@ -588,6 +588,7 @@ div[class^="outerSpacing-1-2"] {
     font-size: 0;
 }
 
-.content-1-2-51 .pd-list li {
+.pd-list li,
+.pd-list {
     white-space: normal !important;
 }
