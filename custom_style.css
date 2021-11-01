@@ -587,3 +587,7 @@ div[class^="outerSpacing-1-2"] {
     border-left-color: #fbe2e2;
     font-size: 0;
 }
+
+.content-1-2-51 .pd-list li {
+    white-space: normal !important;
+}
