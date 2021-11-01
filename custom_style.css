@@ -577,3 +577,13 @@ div[class^="outerSpacing-1-2"] {
     border: 1px solid #fde6e6;
     border-left: 0px;
 }
+
+.pd-list li:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    vertical-align: middle;
+    border-left-color: #fbe2e2;
+    font-size: 0;
+}
