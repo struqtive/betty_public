@@ -596,9 +596,9 @@ div[class^="outerSpacing-1-2"] {
 }
 
 .instype {
-    background-color: red;
+    background-color:#2c4c79;
     color: white;
     padding: 0 5px;
     border-radius: 10px;
-}
+    margin-bottom:2px;
 }
