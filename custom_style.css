@@ -594,3 +594,11 @@ div[class^="outerSpacing-1-2"] {
 .pd-list {
     white-space: normal !important;
 }
+
+.instype {
+    background-color: red;
+    color: white;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+}
