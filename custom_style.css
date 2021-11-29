@@ -601,4 +601,8 @@ div[class^="outerSpacing-1-2"] {
     padding: 0 5px;
     border-radius: 10px;
     margin-bottom:2px;
+    font-size: 12px;
+    width: 75px;
+    text-align: center;
 }
+
