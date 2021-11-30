@@ -607,7 +607,7 @@ div[class^="outerSpacing-1-2"] {
 }
 
 
-div[data-component="warningalert"] div section div {
+div[data-component="warningalert"] div section div[data-component="column"] {
     background-color: #FFF1D2;
     border: 3px solid #ffe7ba;
     border-width: 1px 1px 1px 7px;
@@ -616,6 +616,6 @@ div[data-component="warningalert"] div section div {
 
 
 div[data-component="warningalert"] div section div svg{  
-color: #eaa018;
+color: #eaa018 !important;
 width: 30px;
 }
