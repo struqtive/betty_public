@@ -606,3 +606,16 @@ div[class^="outerSpacing-1-2"] {
     text-align: center;
 }
 
+
+div[data-component="warningalert"] div section div {
+    background-color: #FFF1D2;
+    border: 3px solid #ffe7ba;
+    border-width: 1px 1px 1px 7px;
+    border-left-color: #d0a148;
+}
+
+
+div[data-component="warningalert"] div section div svg{  
+color: #eaa018;
+width: 30px;
+}
