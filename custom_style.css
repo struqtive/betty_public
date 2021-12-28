@@ -551,6 +551,7 @@ div[class^="outerSpacing-1-2"] {
 
 @media (min-width: 1520px) and (max-width: 1700px)
 {
+
     body { 
         zoom: 90%; 
         -moz-transform: scale(0.9); 
@@ -560,8 +561,9 @@ div[class^="outerSpacing-1-2"] {
 
 @media (min-width: 960px) and (max-width: 1180px)
 {
-    
-    
+    div[data-component="profilepic"]  {
+        display:none;
+    }
     body { 
         zoom: 70%; 
         -moz-transform: scale(0.7); 
