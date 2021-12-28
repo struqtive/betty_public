@@ -558,6 +558,18 @@ div[class^="outerSpacing-1-2"] {
     }
 }
 
+@media (min-width: 960px) and (max-width: 1180px)
+{
+    
+    
+    body { 
+        zoom: 70%; 
+        -moz-transform: scale(0.7); 
+        -moz-transform-origin: 0 0;
+    }
+
+}
+
 
 .highcharts-credits {
     display:none !important;
@@ -623,4 +635,4 @@ width: 30px;
 div[data-component="warningalert"] div section div h5 {  
     color: #eaa018 !important;
     }
-    
+      
