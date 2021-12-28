@@ -561,15 +561,19 @@ div[class^="outerSpacing-1-2"] {
 
 @media (min-width: 960px) and (max-width: 1180px)
 {
-    a[data-component="profilepic"]  {
-        display:none;
-    }
+    
     body { 
         zoom: 70%; 
         -moz-transform: scale(0.7); 
         -moz-transform-origin: 0 0;
     }
 
+}
+
+@media (max-width: 1180px){
+    a[data-component="profilepic"]  {
+        display:none;
+    }
 }
 
 
