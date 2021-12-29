@@ -546,6 +546,12 @@ div[class^="outerSpacing-1-2"] {
         -moz-transform: scale(0.8); 
         -moz-transform-origin: 0 0;
     }
+    .MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded
+    {
+        left:initial !important;
+        right:50px !important;
+    }
+
 
 }
 
