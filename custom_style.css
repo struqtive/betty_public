@@ -14,6 +14,7 @@
 14 - Report detail page
 13 - hide boxes for smaller screens
 10 - on cards to remove the grid settings to initial/general tabs/
+4 - general page
 
 */
 
@@ -658,3 +659,7 @@ div[data-component="warningalert"] div section div h5 {
     color: #eaa018 !important;
     }
       
+    .MuiPaper-root.MuiPaper-elevation4 .MuiTableCell-sizeSmall
+    {
+        padding: 4px 24px 3px 16px;
+    }
