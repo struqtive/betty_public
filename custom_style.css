@@ -15,6 +15,7 @@
 13 - hide boxes for smaller screens
 10 - on cards to remove the grid settings to initial/general tabs/
 4 - general page
+5 - witness documents
 
 */
 
@@ -135,6 +136,15 @@ div[class ^= "grid-1-2-"] div:empty {
    border: 1px solid #e9e5e5;
    cursor: pointer;
 }
+
+.MuiPaper-elevation5 [class^="grid-1-2-"] {
+    grid-template-columns: fit-content(50px)  fit-content(50px)fit-content(50px)  fit-content(50px)  !important;
+}
+.MuiPaper-elevation5 [class^="grid-1-2-"] > div{
+
+
+}
+
 
 .MuiPaper-elevation17 .MuiPaper-elevation19 img {
     border-top-left-radius: 8px !important;
