@@ -143,6 +143,8 @@ div[class ^= "grid-1-2-"] div:empty {
 
 .MuiPaper-elevation5 [class^="grid-1-2-"] div[data-component="media-subconditional"] {
     border: 1px solid #e9e5e5;
+    border-radius:7px;
+    overflow:hidden;
 }
 
 .MuiPaper-elevation5 [class^="grid-1-2-"] div[data-component="media-subconditional"] img{
