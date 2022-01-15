@@ -140,8 +140,14 @@ div[class ^= "grid-1-2-"] div:empty {
 .MuiPaper-elevation5 [class^="grid-1-2-"] {
     grid-template-columns: fit-content(50px)  fit-content(50px)fit-content(50px)  fit-content(50px)  !important;
 }
-.MuiPaper-elevation5 [class^="grid-1-2-"] > div{
 
+.MuiPaper-elevation5 [class^="grid-1-2-"] div[data-component="media-subconditional"] {
+    border: 1px solid #e9e5e5;
+}
+
+.MuiPaper-elevation5 [class^="grid-1-2-"] div[data-component="media-subconditional"] img{
+
+    border-radius:7px;
 
 }
 
