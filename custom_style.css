@@ -147,12 +147,11 @@ div[class ^= "grid-1-2-"] div:empty {
     border-radius:7px;
     overflow:hidden;
     margin-right:10px;
+    cursor:pointer;
 }
 
 .MuiPaper-elevation5 [class^="grid-1-2-"] div[data-component="media-subconditional"] img{
-
     border-radius:7px;
-
 }
 
 
