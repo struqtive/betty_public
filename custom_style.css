@@ -682,3 +682,8 @@ div[data-component="warningalert"] div section div h5 {
     {
         padding: 4px 24px 3px 16px;
     }
+
+div[data-component="ps_involved_datalist"] > div.inline-1-2-820 {
+    display: initial !important;
+    float: left !important;
+}
