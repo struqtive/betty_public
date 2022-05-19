@@ -580,10 +580,7 @@ div[class^="outerSpacing-1-2"] {
         right:60px !important;
     }
 
-    div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
-        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)) !important;
-    }
-
+  
 }
 
 @media (min-width: 1520px) and (max-width: 1700px)
@@ -621,6 +618,14 @@ div[class^="outerSpacing-1-2"] {
     a[data-component="profilepic"]  {
         display:none;
     }
+}
+
+@media (max-width:2000px)
+{
+    div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)) !important;
+    }
+
 }
 
 
