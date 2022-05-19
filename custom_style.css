@@ -625,6 +625,10 @@ div[class^="outerSpacing-1-2"] {
     div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)) !important;
     }
+    div[data-component="rptoverview"] [class^="grid-1-2-"] img { 
+       width:40px !important;
+    }
+
 
 }
 
