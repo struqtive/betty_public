@@ -580,7 +580,7 @@ div[class^="outerSpacing-1-2"] {
         right:60px !important;
     }
 
-    div[data-component="rptoverview"] [class^="grid-1-2-"] {
+    div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)) !important;
     }
 
