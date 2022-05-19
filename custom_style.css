@@ -52,6 +52,10 @@ iframe {
     grid-template-columns: repeat(auto-fit, minmax(525px, 525px)) !important;
 }
 
+div[data-component="rptoverview"] [class^="grid-1-2-"] {
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)) !important;
+}
+
 /*all dividers*/
 [class^="divider"] {
     height: 0.03rem;
