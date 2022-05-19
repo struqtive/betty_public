@@ -56,6 +56,10 @@ div[data-component="rptoverview"] [class^="grid-1-2-"] {
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)) !important;
 }
 
+
+.MuiPaper-root.MuiPaper-elevation6  [class^="grid-1-2-"] {
+    grid-template-columns: none !important;
+}
 /*all dividers*/
 [class^="divider"] {
     height: 0.03rem;
