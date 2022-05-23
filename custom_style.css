@@ -614,22 +614,21 @@ div[class^="outerSpacing-1-2"] {
 
 }
 
-@media (max-width: 1180px){
-    a[data-component="profilepic"]  {
-        display:none;
-    }
-}
-
 @media (max-width:2000px)
 {
     div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)) !important;
     }
-
-
-
 }
 
+@media (max-width: 1180px){
+    a[data-component="profilepic"]  {
+        display:none;
+    }
+    div[data-component="rptoverview"] [class^="grid-1-2-"]  { 
+        grid-template-columns: repeat(auto-fit, minmax(95%, 1fr)) !important;
+    }
+}
 
 .highcharts-credits {
     display:none !important;
