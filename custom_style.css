@@ -230,6 +230,12 @@ div[class^="outerSpacing-1-2"] {
     .MuiBox-root div[class^="tabs-1-2-"] .jss200 {
         display:none !important;
     }
+    
+    /*overwrite for editpage */
+    .MuiBox-root div[class^="tabs-1-2-"] div[data-component="Box-Edit-Page"]{
+        display:block !important;
+    }
+
 
     div[data-component="Box-Edit-Page"] .MuiBox-root div[class^="tabs-1-2-"] .jss200 {
         display:block !important;
