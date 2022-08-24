@@ -231,6 +231,10 @@ div[class^="outerSpacing-1-2"] {
         display:none !important;
     }
 
+    div[data-component="Box-Edit-Page"] .MuiBox-root div[class^="tabs-1-2-"] .jss200 {
+        display:block !important;
+
+    }
 
     .MuiBox-root div[class^="tabs-1-2-"] .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
         color: #1564D7 !important;
