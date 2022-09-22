@@ -134,6 +134,10 @@ div[class ^= "grid-1-2-"] div:empty {
     display:none;
 }
 
+section[data-component ^= "row-dashboard-graphs"] div:empty {
+    display:none !important;
+}
+
 .MuiPaper-elevation22 [class^="grid-1-2-"] > div ,
 .MuiPaper-elevation21 [class^="grid-1-2-"] > div , 
 .MuiPaper-elevation24 [class^="grid-1-2-"] > div, 
