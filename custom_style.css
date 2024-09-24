@@ -417,7 +417,7 @@ div[class^="outerSpacing-1-2"] {
 
     .MuiPaper-elevation22 img[class ^= "media"]:hover,
     .MuiPaper-elevation21 img[class ^= "media"]:hover {
-        opacity: 0.7;
+        opacity: 0.0;
     }
 
     .MuiPaper-elevation22 img[class ^= "media"] {
