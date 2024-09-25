@@ -181,9 +181,6 @@ section[data-component ^= "row-dashboard-graphs"] div:empty {
     grid-template-columns: repeat(auto-fit, minmax(100px, 100px)) !important;
 }
 
-.MuiPaper-elevation21 [class^="document-image"]:hover {
-        opacity: 0.7;
-    }
 
 .MuiButton-label {
     text-transform: none !important;
@@ -419,9 +416,9 @@ div[class^="outerSpacing-1-2"] {
     }
 
     .MuiPaper-elevation22 img[class ^= "media"]:hover,
-    /*.MuiPaper-elevation21 img[class ^= "media"]:hover {
-        opacity: 1.0;
-    }*/
+    .MuiPaper-elevation21 img[class ^= "media"]:hover {
+        opacity: 0.7;
+    }
 
     .MuiPaper-elevation22 img[class ^= "media"] {
         min-width: 200px;
