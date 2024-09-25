@@ -779,8 +779,10 @@ div[data-component="Column-button"] {
 
 }
 
-div[data-component="document-image"]:hover {
-    opacity: 0.7;
+@media (min-width: 768px) {
+    div[data-component="document-image"]:hover {
+        opacity: 0.7;
+    }
 }
 
 }
