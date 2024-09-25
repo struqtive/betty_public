@@ -181,6 +181,9 @@ section[data-component ^= "row-dashboard-graphs"] div:empty {
     grid-template-columns: repeat(auto-fit, minmax(100px, 100px)) !important;
 }
 
+.MuiPaper-elevation21 [class^="document-image"]:hover {
+        opacity: 0.7;
+    }
 
 .MuiButton-label {
     text-transform: none !important;
@@ -777,12 +780,6 @@ div[data-component="Column-media-logo"] {
 div[data-component="Column-button"] {
     display:none;
 
-}
-
-@media (min-width: 768px) {
-    div[data-component="document-image"]:hover {
-        opacity: 0.7;
-    }
 }
 
 }
