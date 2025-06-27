@@ -601,7 +601,7 @@ div[class^="outerSpacing-1-2"] {
 {
 
     body { 
-        zoom: 90%; 
+        zoom: 88%; 
         -moz-transform: scale(0.9); 
         -moz-transform-origin: 0 0;
     }
