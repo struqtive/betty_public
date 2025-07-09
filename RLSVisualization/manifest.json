@@ -16,9 +16,9 @@
             "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
             "description": "A simple table chart.",
             "resource": {
-                "js": "https://github.com/struqtive/betty_public/tree/main/RLSVisualization/viz-codelab.js",
-                "config": "https://github.com/struqtive/betty_public/tree/main/RLSVisualization/viz-codelab.json",
-                "css": "gs://https://github.com/struqtive/betty_public/tree/main/RLSVisualizationMY_GOOGLE_CLOUD_STORAGE_BUCKET/viz-codelab.css"
+                "js": "https://struqtive.github.io/betty_public/RLSVisualization/viz-codelab.js",
+                "config": "https://struqtive.github.io/betty_public/RLSVisualization/viz-codelab.json",
+                "css": "https://struqtive.github.io/betty_public/RLSVisualization/viz-codelab.css"
             }
         }
     ]
