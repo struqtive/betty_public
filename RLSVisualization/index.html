@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+    <style>
+      #container { font-family: Arial; padding: 10px; }
+      #summary { font-size: 18px; margin: 10px 0; }
+      #map { height: 400px; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="summary">Loading firetruck response count...</div>
+      <div id="map"></div>
+    </div>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYxibPOqDDSnuy2DYO2IyYh0AfuvEzreI&callback=initMap">
+    </script>
+  </body>
+</html>

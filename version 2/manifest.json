@@ -1,0 +1,18 @@
+{
+  "visualization": "index.html",
+  "options": {
+    "type": "object",
+    "properties": {
+      "street": {
+        "type": "string",
+        "title": "Street Name",
+        "default": "Elm Street"
+      },
+      "radiusMeters": {
+        "type": "number",
+        "title": "Search Radius (meters)",
+        "default": 300
+      }
+    }
+  }
+}
