@@ -404,7 +404,7 @@ div[class^="outerSpacing-1-2"] {
         object-fit: cover;
         object-position: center;
         min-height: 25px;
-        filter: contrast(125%);
+        /* filter: contrast(125%); Removed 20260209 due to complaints by Edward about lighter items not showing */
     }
 
     .MuiPaper-elevation21 img[class ^= "media"] {
@@ -412,7 +412,7 @@ div[class^="outerSpacing-1-2"] {
         object-fit: cover;
         object-position: center;
         min-height: 75px;
-        filter: contrast(125%);
+        /* filter: contrast(125%); Removed 20260209 due to complaints by Edward about lighter items not showing */
     }
 
     .MuiPaper-elevation22 img[class ^= "media"]:hover,
@@ -425,13 +425,13 @@ div[class^="outerSpacing-1-2"] {
         object-fit: cover;
         object-position: center;
         min-height: 150px;
-        filter: contrast(125%);
+        /* filter: contrast(125%); Removed 20260209 due to complaints by Edward about lighter items not showing */
     }
 
     .MuiPaper-elevation19 img[class ^= "media"] {
         object-fit: cover;
         object-position: center;
-        filter: contrast(125%);
+        /* filter: contrast(125%); Removed 20260209 due to complaints by Edward about lighter items not showing */
         cursor:pointer;
     }
 
